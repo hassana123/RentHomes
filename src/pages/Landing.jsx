@@ -7,7 +7,7 @@ const Landing = () => {
   return (
     <main>
       {/* Navigation */}
-      <nav className="w-[90%] items-center py-2 mx-auto flex justify-between">
+      <nav className="w-[90%] ok items-center py-2 mx-auto flex justify-between">
         <h1 className="text-secondary lg:text-[30px] text-[20px] flex space-x-2 items-center">
           <span className="font-bold">RENT</span>HOMES <IoHomeOutline />
         </h1>
