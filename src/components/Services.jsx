@@ -1,7 +1,7 @@
 import React from 'react'
-import vector from "../assets/Vector.png"
-import vector1 from "../assets/Vector1.png"
-import vector2 from "../assets/Group.png"
+import vector from "../assets/vector.png"
+import vector1 from "../assets/vector1.png"
+import vector2 from "../assets/group.png"
 const Services = () => {
   return (
    <section className='w-[90%] mx-auto'>
