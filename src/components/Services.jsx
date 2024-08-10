@@ -1,7 +1,7 @@
 import React from 'react'
-import vector from "../../public/vector.png"
-import vector1 from "../../public/vector1.png"
-import group from "../../public/group.png"
+// import vector from "/vector.png"
+// import vector1 from "/vector1.png"
+// import group from "/group.png"
 const Services = () => {
   return (
    <section className='w-[90%] mx-auto'>
@@ -9,17 +9,17 @@ const Services = () => {
     <p  className='text-center text-[#141E15] text-[22px]' >We Make Finding Rentals Easy, Effortless Search, Endless Choices</p>
    <div className='md:flex md:space-y-0 space-y-5 justify-between text-white text-center  my-10  mx-auto  '>
     <div className='bg-primary mx-5 space-y-2 px-7  py-5 shadow-xl rounded-lg'>
-        <img src={vector} className='mx-auto' alt="" />
+        <img src="/vector.png" className='mx-auto' alt="" />
         <h3 className='uppercase text-[40px] font-bold '>Responsive</h3>
         <p>Our commitment to being responsive means that your concerns and efficient.</p>
     </div>
     <div className='bg-primary mx-5 space-y-2  px-7 py-5 shadow-xl rounded-lg'>
-        <img className='mx-auto' src={vector1} alt="" />
+        <img className='mx-auto' src="/vector1.png" alt="" />
         <h3 className='uppercase text-[40px] font-bold '>green</h3>
         <p>Experience the convenience of our responsive platform, ensuring swift communication.</p>
     </div>
     <div  className='bg-primary mx-5 space-y-2  px-7 shadow-xl rounded-lg py-5'>
-        <img className='mx-auto' src={group} alt="" />
+        <img className='mx-auto' src="/group.png" alt="" />
         <h3 className='uppercase text-[40px] font-bold'>security</h3>
         <p>Ensuring swift communication and quick solutions for all your rental needs.</p>
     </div>
