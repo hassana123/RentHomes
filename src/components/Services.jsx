@@ -1,7 +1,7 @@
 import React from 'react'
-import vector from "../assets/vector.png"
-import vector1 from "../assets/vector1.png"
-import vector2 from "../assets/group.png"
+import vector from "../../public/vector.png"
+import vector1 from "../../public/vector1.png"
+import group from "../../public/group.png"
 const Services = () => {
   return (
    <section className='w-[90%] mx-auto'>
@@ -19,7 +19,7 @@ const Services = () => {
         <p>Experience the convenience of our responsive platform, ensuring swift communication.</p>
     </div>
     <div  className='bg-primary mx-5 space-y-2  px-7 shadow-xl rounded-lg py-5'>
-        <img className='mx-auto' src={vector2} alt="" />
+        <img className='mx-auto' src={group} alt="" />
         <h3 className='uppercase text-[40px] font-bold'>security</h3>
         <p>Ensuring swift communication and quick solutions for all your rental needs.</p>
     </div>

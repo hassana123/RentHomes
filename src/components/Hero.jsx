@@ -1,6 +1,6 @@
 import React from "react";
-import image from "../assets/freshnuts.png";
-import image1 from "../assets/image.png";
+import freshnuts from "../../public/freshnuts.png";
+import image from "../../public/image.png";
 const Hero = () => {
   return (
     <>
@@ -21,10 +21,10 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <img className="md:w-[40%]" src={image} alt="" />
+        <img className="md:w-[40%]" src={freshnuts} alt="" />
       </section>
       <section  className="md:flex items-center w-[90%] md:my-10 my-20 mx-auto space-x-10 ">
-        <img className="md:w-[40%]" src={image1} alt="" />
+        <img className="md:w-[40%]" src={image} alt="" />
         <div className="space-y-5">
           <p className="md:text-[70px] text-primary text-[38px]" >Begin your awesome journey</p>
           <p className="md:text-[20px] text-[#141E15] text-[18px]" >
