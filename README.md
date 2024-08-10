@@ -21,7 +21,7 @@ RentHomes is a web application designed to simplify the process of finding and r
 
 ## Live Demo
 
-Check out the live version of RentHomes here: [RentHomes Live Site](https://your-live-site-link.com) 
+Check out the live version of RentHomes here: [RentHomes Live Site](https://rent-homes-seven.vercel.app/) 
 
 ## Features
 
